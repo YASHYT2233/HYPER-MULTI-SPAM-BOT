@@ -1801,11 +1801,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "💥💣💣💥!"
+        text = "𝙁𝙞𝙣𝙖𝙡 𝙎𝙩𝙧𝙞𝙠𝙚 𝙊𝙥!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" ʜʏᴘᴇʀ sᴘᴀᴍ ʙᴏᴛs !\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f" 𝔽𝕀ℕ𝔸𝕃 𝕊𝕋ℝ𝕀𝕂𝔼 𝕆ℙ 🥵🔥 !\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -1844,7 +1844,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "2 𝙈𝙞𝙣 𝙍𝙪𝙠 𝙅𝙖 𝘽𝙨𝙙𝙠\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
