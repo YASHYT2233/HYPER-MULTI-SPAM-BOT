@@ -1801,11 +1801,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝗛𝗬𝗣𝗘𝗥 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗢𝗣!"
+        text = "𝙁𝙎 𝙎𝙋𝘼𝙈 𝙊𝙋!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 𝔽𝕀ℕ𝔸𝕃 𝕊𝕋ℝ𝕀𝕂𝔼 𝕆ℙ 🥵🔥 !\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f"𝔽𝕀ℕ𝔸𝕃 𝕊𝕋ℝ𝕀𝕂𝔼 𝕆ℙ 🥵🔥!\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -1844,7 +1844,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "2 𝙈𝙞𝙣 𝙍𝙪𝙠 𝙅𝙖 𝘽𝙨𝙙𝙠\n\nPlease wait till it reboots..."
+        text = "2𝙈𝙞𝙣 𝙍𝙪𝙠 𝙅𝙖 𝘽𝙨𝙙𝙠\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -2016,12 +2016,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝗛𝗬𝗣𝗘𝗥 𝗠𝗨𝗟𝗧𝗜 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 💥💥💥
-💥𝗕𝗬 @ITS_KING_HYPER 💥"""
+💥💥 𝙁𝙎 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
+💥𝗕𝗬 @The_GodLucifer 💥"""
 
 print(text)
 print("")
-print("𝗛𝗬𝗣𝗘𝗥 𝗠𝗨𝗟𝗧𝗜 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬")
+print("𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
