@@ -128,7 +128,7 @@ RAID = [
 
 
 RRAID = [
-    "𝙇𝙐𝘾𝙄𝙁𝙀𝙍_𝙎𝘼𝘽𝙆𝘼_𝘽𝘼𝘼𝙋",
+    "MADARXHODD",
     "BHOSDIKE",
     "LAAAWEEE KE BAAAAAL",
     "MAAAAR KI JHAAAAT KE BBBBBAAAAALLLLL",
