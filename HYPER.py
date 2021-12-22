@@ -2016,12 +2016,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝗛𝗬𝗣𝗘𝗥 𝗠𝗨𝗟𝗧𝗜 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 💥💥💥
-💥𝗕𝗬 @ITS_KING_HYPER 💥"""
+💥💥 𝕊𝕡𝕒𝕞 𝕆𝕡 💥💥💥
+💥𝔹𝕐 @The_GodLucifer 💥"""
 
 print(text)
 print("")
-print("𝗛𝗬𝗣𝗘𝗥 𝗠𝗨𝗟𝗧𝗜 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬")
+print(" 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
