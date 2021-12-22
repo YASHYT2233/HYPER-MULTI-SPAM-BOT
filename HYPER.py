@@ -1801,7 +1801,7 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝙁𝙞𝙣𝙖𝙡 𝙎𝙩𝙧𝙞𝙠𝙚 𝙊𝙥!"
+        text = "𝗛𝗬𝗣𝗘𝗥 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗢𝗣!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
