@@ -1801,11 +1801,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝙁𝙎 𝙎𝙋𝘼𝙈 𝙊𝙋!"
+        text = "𝐘𝐀𝐒𝐇 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐎𝐏!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝔽𝕀ℕ𝔸𝕃 𝕊𝕋ℝ𝕀𝕂𝔼 𝕆ℙ 🥵🔥!\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f"𝐘𝐀𝐒𝐇 𝐎𝐏 🥵🔥!\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -1844,7 +1844,7 @@ async def ping(e):
 @boy.on(events.NewMessage(incoming=True, pattern=r"\*restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "2𝙈𝙞𝙣 𝙍𝙪𝙠 𝙅𝙖 𝘽𝙨𝙙𝙠\n\nPlease wait till it reboots..."
+        text = "2𝐌𝐈𝐍 𝐖𝐀𝐈𝐓 𝐏𝐑𝐎 𝐁𝐎𝐓 𝐑𝐄𝐁𝐎𝐎𝐓𝐈𝐍𝐆...\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -2016,8 +2016,8 @@ async def help(e):
         
 text = """
 
-💥💥 𝙁𝙎 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
-💥𝗕𝗬 @The_GodLucifer 💥"""
+💥💥 𝙔𝘼𝙎𝙃 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
+💥 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐀𝐒𝐇 💥"""
 
 print(text)
 print("")
