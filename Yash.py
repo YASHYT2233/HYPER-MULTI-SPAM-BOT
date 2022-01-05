@@ -1174,7 +1174,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐇𝐘𝐏𝐄𝐑 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
+            text = "𝐎𝐊 𝐅𝐈𝐍𝐄 𝐌𝐀𝐍 𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1801,11 +1801,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐘𝐀𝐒𝐇 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐎𝐏!"
+        text = "𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐎𝐏!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝐘𝐀𝐒𝐇 𝐎𝐏 🥵🔥!\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f"𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐎𝐏 🥵🔥!\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -2016,12 +2016,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝙔𝘼𝙎𝙃 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
-💥 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐀𝐒𝐇 💥"""
+💥💥 𝘼𝙍𝙆𝙃𝘼𝙈𝙭𝙂𝙊𝘿 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
+💥 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐀𝐒𝐇 𝐀𝐍𝐃 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 💥"""
 
 print(text)
 print("")
-print("𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘")
+print("𝗔𝗥𝗞𝗛𝗔𝗠𝘅𝗚𝗢𝗗 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
